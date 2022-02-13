@@ -1,5 +1,6 @@
 import React,{useEffect} from 'react';
-import '../Resources/Temp/style.css';
+import Layout from "../Layout/Layout";
+
 
 const HomePage = () => {
 
@@ -8,15 +9,9 @@ const HomePage = () => {
     },[])
 
     return(
-        <div className="vertical-container background" id="main">
-            <div className="vertical-body">
-                <div className="container">
-                    <h2 className="title">Coming Soon</h2>
-                    <p>Something will appear here.</p>
-                    <a href="https://github.com/AbdoMoh96" rel="noreferrer" target="_blank">GitHub</a>
-                </div>
-            </div>
-        </div>
+        <Layout>
+            <h1>Home Page Here</h1>
+        </Layout>
     );
 
 }
