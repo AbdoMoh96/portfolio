@@ -4,6 +4,17 @@ on:
       - main
 name: 🚀 Deploy Website To Cpanel
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: React.js Build
+    steps:
+      - uses: actions/checkout@v2
+      - name: React.js Build
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - run: npm run prod
+
   web-deploy:
     name: 🎉 Deploy To Cpanel
     runs-on: ubuntu-latest
@@ -17,3 +28,5 @@ jobs:
           server: ftp.codebuilderpro.com
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
+
+
