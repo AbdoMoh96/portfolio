@@ -12,7 +12,7 @@ const HomePage = () => {
             <div className="vertical-body">
                 <div className="container">
                     <h2 className="title">Coming Soon</h2>
-                    <p>Something well appear here soon.</p>
+                    <p>Something will appear here soon.</p>
                     <a href="https://github.com/AbdoMoh96" rel="noreferrer" target="_blank">GitHub</a>
                 </div>
             </div>
