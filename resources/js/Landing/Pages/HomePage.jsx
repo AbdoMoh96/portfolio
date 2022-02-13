@@ -11,8 +11,8 @@ const HomePage = () => {
         <div className="vertical-container background" id="main">
             <div className="vertical-body">
                 <div className="container">
-                    <h2 className="title">Comming Soon</h2>
-                    <p>this will be a portfolio one day</p>
+                    <h2 className="title">Coming Soon</h2>
+                    <p>Something well appear here soon.</p>
                     <a href="https://github.com/AbdoMoh96" rel="noreferrer" target="_blank">GitHub</a>
                 </div>
             </div>
