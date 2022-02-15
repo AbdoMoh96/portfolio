@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from './Partials/Nav';
+import mainStyle from './Sass/main.scss';
 import Footer from './Partials/Footer';
 
 const Layout = ({children}) => {
@@ -7,10 +8,10 @@ const Layout = ({children}) => {
 
 
     return(
-        <main>
+        <main style={mainStyle}>
            <Nav/>
             { children }
-           <Footer/>
+           {/*<Footer/>*/}
         </main>
     );
 }

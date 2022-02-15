@@ -1,5 +1,6 @@
 import React,{useEffect} from 'react';
 import Layout from "../Layout/Layout";
+import Header from "../Components/Pages/HomePage/Header";
 
 
 const HomePage = () => {
@@ -10,7 +11,14 @@ const HomePage = () => {
 
     return(
         <Layout>
-            <h1>Home Page Here</h1>
+
+
+            <Header/>
+
+            <div style={{
+                height: '50vh'
+            }}>
+            </div>
         </Layout>
     );
 

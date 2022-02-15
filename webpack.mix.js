@@ -19,3 +19,5 @@ const mix = require('laravel-mix');
 mix.js('resources/js/Landing/index.js',
      'public/landing/Resources/js/script.js')
       .react();
+
+

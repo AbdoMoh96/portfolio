@@ -1,0 +1,17 @@
+@import "./mixins";
+
+
+html{
+    body{
+        background-color: #F5F5F5FF;
+        main{
+            @import "./partials/nav";
+
+
+
+        }
+    }
+}
+
+
+
