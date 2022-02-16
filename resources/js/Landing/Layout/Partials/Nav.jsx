@@ -1,4 +1,5 @@
 import React,{useEffect,useState} from "react";
+import profileImage from "../../Resources/images/profile.jpeg";
 
 const Nav = () => {
 
@@ -28,14 +29,16 @@ const Nav = () => {
           </ul>
 
           <div className={`name_image_holder ${position}`}>
-              <img src="" alt=""/>
+              <img src={profileImage} alt=""/>
               <div>
                   <span>Abdelrahman</span>
                   <span>Mohammed</span>
               </div>
           </div>
 
-          <a href="#">github</a>
+
+
+          <a href="https://www.github.com/AbdoMoh96" target="_blank" rel="noreferrer" className="github">github</a>
       </nav>
     );
 }

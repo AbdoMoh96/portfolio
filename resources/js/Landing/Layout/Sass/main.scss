@@ -1,14 +1,16 @@
 @import "./mixins";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap');
+
+
+
 
 
 html{
     body{
         background-color: #F5F5F5FF;
         main{
+            position: relative;
             @import "./partials/nav";
-
-
-
         }
     }
 }

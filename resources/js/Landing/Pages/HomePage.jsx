@@ -16,7 +16,7 @@ const HomePage = () => {
             <Header/>
 
             <div style={{
-                height: '50vh'
+                height: '500vh'
             }}>
             </div>
         </Layout>

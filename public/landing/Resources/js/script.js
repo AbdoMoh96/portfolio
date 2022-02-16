@@ -2132,6 +2132,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var Layout = function Layout(_ref) {
   var children = _ref.children;
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {}, []);
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("main", {
     style: _Sass_main_scss__WEBPACK_IMPORTED_MODULE_2__["default"],
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_Partials_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {}), children]
@@ -2182,7 +2183,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _Resources_images_profile_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Resources/images/profile.jpeg */ "./resources/js/Landing/Resources/images/profile.jpeg");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -2194,6 +2196,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
 
@@ -2220,43 +2223,46 @@ var Nav = function Nav() {
       }
     });
   }, []);
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("nav", {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("ul", {
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("nav", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("ul", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
           href: "#",
           children: "Home"
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
           href: "#",
           children: "Experience"
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
           href: "#",
           children: "Projects"
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
           href: "#",
           children: "Contact"
         })
       })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
       className: "name_image_holder ".concat(position),
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
-        src: "",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+        src: _Resources_images_profile_jpeg__WEBPACK_IMPORTED_MODULE_1__["default"],
         alt: ""
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
           children: "Abdelrahman"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
           children: "Mohammed"
         })]
       })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-      href: "#",
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
+      href: "https://www.github.com/AbdoMoh96",
+      target: "_blank",
+      rel: "noreferrer",
+      className: "github",
       children: "github"
     })]
   });
@@ -2294,7 +2300,7 @@ var HomePage = function HomePage() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_Layout_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_Components_Pages_HomePage_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       style: {
-        height: '50vh'
+        height: '500vh'
       }
     })]
   });
@@ -2424,8 +2430,9 @@ __webpack_require__.r(__webpack_exports__);
 // Imports
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "html body {\n  background-color: #F5F5F5FF;\n}\nhtml body main nav {\n  display: flex;\n  position: fixed;\n  justify-content: space-between;\n  align-items: center;\n  width: 100vw;\n  padding: 0 1rem;\n}\nhtml body main nav ul {\n  list-style: none;\n}\nhtml body main nav ul li {\n  display: inline-block;\n}\nhtml body main nav ul li a {\n  margin-right: 1rem;\n  display: block;\n  padding: 1rem 0;\n}\nhtml body main nav .name_image_holder {\n  position: absolute;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  top: 1200%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  z-index: 2;\n  transition: top 0.6s ease;\n  gap: 1rem;\n}\nhtml body main nav .name_image_holder img {\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  outline: none;\n  background-color: green;\n}\nhtml body main nav .name_image_holder div {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\nhtml body main nav .name_image_holder_top {\n  flex-direction: row;\n  gap: 1rem;\n  top: 50%;\n}\nhtml body main nav .name_image_holder_top img {\n  width: 40px;\n  height: 40px;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "html body {\n  background-color: #F5F5F5FF;\n}\nhtml body main {\n  position: relative;\n  @import url(\"https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap\");\n}\nhtml body main nav {\n  display: flex;\n  position: fixed;\n  z-index: 2;\n  justify-content: space-between;\n  align-items: center;\n  width: 100vw;\n  padding: 0 4rem;\n  background: #a8c0ff;\n  /* fallback for old browsers */\n  /* Chrome 10-25, Safari 5.1-6 */\n  background: linear-gradient(to right, #3f2b96, #a8c0ff);\n  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */\n}\nhtml body main nav ul {\n  list-style: none;\n}\nhtml body main nav ul li {\n  display: inline-block;\n}\nhtml body main nav ul li a {\n  text-decoration: none;\n  font-size: 1.2rem;\n  font-family: \"Roboto\", sans-serif;\n  margin-right: 1.2rem;\n  display: block;\n  padding: 1rem 0;\n  color: whitesmoke;\n  transition: color 0.6s ease;\n}\nhtml body main nav ul li a:hover {\n  color: #00c169;\n}\nhtml body main nav .name_image_holder {\n  position: absolute;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  top: 1000%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  z-index: 10;\n  transition: top 0.6s ease;\n  gap: 1rem;\n}\nhtml body main nav .name_image_holder img {\n  width: 200px;\n  height: 200px;\n  border: 4px solid white;\n  border-radius: 50%;\n  outline: none;\n  background-color: green;\n  transition: width 0.6s ease, height 0.6s ease, border 0.6s ease;\n}\nhtml body main nav .name_image_holder div {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\nhtml body main nav .name_image_holder span {\n  font-family: \"Roboto\", sans-serif;\n  font-size: 2rem;\n  font-weight: bold;\n  transition: font-size 0.6s ease, color 0.6s ease;\n}\nhtml body main nav .name_image_holder span:nth-child(1) {\n  color: gold;\n}\nhtml body main nav .name_image_holder_top {\n  flex-direction: row;\n  gap: 1rem;\n  top: 50%;\n}\nhtml body main nav .name_image_holder_top img {\n  width: 40px;\n  height: 40px;\n  border: 2px solid white;\n}\nhtml body main nav .name_image_holder_top span {\n  font-family: \"Roboto\", sans-serif;\n  font-size: 1rem;\n  font-weight: bold;\n}\nhtml body main nav .name_image_holder_top span:nth-child(1) {\n  color: whitesmoke;\n}\nhtml body main nav .github {\n  display: inline-block;\n  font-family: \"Roboto\", sans-serif;\n  font-size: 1rem;\n  text-decoration: none;\n  font-weight: bold;\n  padding: 0.5rem 2rem;\n  border: 2px solid whitesmoke;\n  border-radius: 50px;\n  background-color: #2f2f2f;\n  color: whitesmoke;\n  transition: border 0.6s ease, background-color 0.6s ease, color 0.6s ease;\n}\nhtml body main nav .github:hover {\n  color: #2f2f2f;\n  background-color: whitesmoke;\n  border-color: #2f2f2f;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2449,7 +2456,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "header {\n  position: relative;\n  height: 100vh;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "header {\n  position: relative;\n  height: 100vh;\n  background: #a8c0ff;\n  /* fallback for old browsers */\n  /* Chrome 10-25, Safari 5.1-6 */\n  background: linear-gradient(to right, #3f2b96, #a8c0ff);\n  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2673,6 +2680,21 @@ var deepmerge_1 = deepmerge;
 
 module.exports = deepmerge_1;
 
+
+/***/ }),
+
+/***/ "./resources/js/Landing/Resources/images/profile.jpeg":
+/*!************************************************************!*\
+  !*** ./resources/js/Landing/Resources/images/profile.jpeg ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/profile.jpeg?3e8176683652ff5cc0ed3f23ba85d740");
 
 /***/ }),
 

@@ -10,8 +10,6 @@ const Header = () => {
     return(
         <header style={headerStyle}>
 
-
-
         </header>
     );
 }
