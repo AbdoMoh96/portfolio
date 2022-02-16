@@ -1,5 +1,6 @@
 import React,{useEffect,useState} from "react";
 import profileImage from "../../Resources/images/profile.jpeg";
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Nav = () => {
 
@@ -38,7 +39,9 @@ const Nav = () => {
 
 
 
-          <a href="https://www.github.com/AbdoMoh96" target="_blank" rel="noreferrer" className="github">github</a>
+          <a href="https://www.github.com/AbdoMoh96" target="_blank" rel="noreferrer" className="github">
+              github <GitHubIcon sx={{ fontSize: "1.2rem" }}/>
+          </a>
       </nav>
     );
 }

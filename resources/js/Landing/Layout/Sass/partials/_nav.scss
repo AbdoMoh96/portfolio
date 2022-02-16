@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap');
+@import "../../../Resources/Mobile/mobile";
 
 @mixin ancorFont{
     text-decoration: none;
@@ -39,7 +40,19 @@ nav{
                 &:hover{
                     color: #00c169;
                 }
+
+                @include media('<mobile') {
+                    margin-right: 0 !important;
+                    margin-bottom: 1rem;
+                    pointer-events: none;
+                }
             }
+        }
+
+        @include media('<mobile') {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
         }
     }
 
@@ -87,6 +100,10 @@ nav{
         span:nth-child(1){
             color: gold;
         }
+
+        @include media('<mobile') {
+            display: none !important;
+        }
     }
 
     .name_image_holder_top{
@@ -114,7 +131,10 @@ nav{
     }
 
     .github{
-        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
         font-family: 'Roboto', sans-serif;
         font-size: 1rem;
         text-decoration: none;
@@ -133,7 +153,22 @@ nav{
             background-color: whitesmoke;
             border-color: #2f2f2f;
         }
+
+        @include media('<mobile') {
+            margin-top: 1rem;
+            pointer-events: none;
+        }
     }
 
+
+
+    @include media('<mobile') {
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        //left: -100vw;
+    }
 
 }

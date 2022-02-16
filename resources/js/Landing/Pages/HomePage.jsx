@@ -15,10 +15,10 @@ const HomePage = () => {
 
             <Header/>
 
-            <div style={{
+            {/*<div style={{
                 height: '500vh'
             }}>
-            </div>
+            </div>*/}
         </Layout>
     );
 
